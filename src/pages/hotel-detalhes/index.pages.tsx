@@ -6,6 +6,7 @@ import {
   Icon,
   IconContainer,
   LeftContent,
+  Main,
   ReserveButton,
   RightContent,
   Row,
@@ -17,7 +18,8 @@ import { Carroussel, HotelRate, Maps, OQueFazer, Reserve, Sobre } from './compos
 export default function HotelDetalhes() {
   return (
     <>
-      <InputHeader />
+    <InputHeader />
+    <Main>
       <Col>
         <Row>
           <Typography>Nome da cidade</Typography>
@@ -45,6 +47,7 @@ export default function HotelDetalhes() {
           </RightContent>
         </Content>
       </Col>
+    </Main>
     </>
   );
 }

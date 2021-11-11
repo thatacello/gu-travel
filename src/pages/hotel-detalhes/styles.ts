@@ -1,5 +1,13 @@
 import styled from 'styled-components';
 
+export const Main = styled.div`
+  width: 100%;
+  height: unset;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+`;
 export const Icon = styled.img`
   width: 4rem;
   height: 4rem;
@@ -7,6 +15,7 @@ export const Icon = styled.img`
 export const Col = styled.section`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 2rem;
 `;
 export const Row = styled.div`
@@ -24,12 +33,13 @@ export const IconContainer = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  justify-content: center;
+  gap: 4rem;
 `;
 export const RightContent = styled.div`
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
   gap: 0.5rem;
   article {
     font-size: 1.5rem;
@@ -39,13 +49,13 @@ export const RightContent = styled.div`
 export const LeftContent = styled.div`
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
   gap: 2rem;
 `;
 export const ReserveButton = styled.button`
   border: none;
-  background-color: #85D2D0;
-  color: #FFF;
+  background-color: #85d2d0;
+  color: #fff;
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.05em;
