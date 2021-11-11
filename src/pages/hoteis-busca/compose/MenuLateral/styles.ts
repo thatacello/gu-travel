@@ -21,6 +21,7 @@ export const Container = styled.div`
   label {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
   }
   
 `;

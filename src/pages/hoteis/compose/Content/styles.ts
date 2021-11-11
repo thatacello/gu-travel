@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContentContainer = styled.div`
-  width: 80%;
+  width: 100%;
   height: unset;
   padding: 4rem 5rem;
   display: flex;
@@ -35,6 +35,14 @@ export const ContentContainer = styled.div`
   .card-subtitle {
     font-size: 1.25rem;
     text-align: center;
+  }
+  div {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 `;
 export const Header = styled.section`

@@ -7,6 +7,7 @@ import Hoteis from './pages/hoteis/index.page';
 import HoteisBusca from './pages/hoteis-busca/index.page';
 import { Main } from './styles/theme';
 import HotelDetalhes from './pages/hotel-detalhes/index.pages';
+import 'antd/dist/antd.css';
 
 function App() {
   return (

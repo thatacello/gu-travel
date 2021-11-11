@@ -16,12 +16,11 @@ const Content = () => {
       <Row className="row" gutter={16}>
         <Col span={8}>
           <Card
-            hoverable
             cover={
               <img
                 alt="Hotel em Mandapa"
                 src={mandapa}
-                style={{ width: '25rem' }}
+                style={{ width: '20rem' }}
               />
             }
           >
@@ -33,12 +32,11 @@ const Content = () => {
         </Col>
         <Col span={8}>
           <Card
-            hoverable
             cover={
               <img
                 alt="Hotel em Shinta"
                 src={shinta}
-                style={{ width: '25rem' }}
+                style={{ width: '20rem' }}
               />
             }
           >
@@ -50,9 +48,8 @@ const Content = () => {
         </Col>
         <Col span={8}>
           <Card
-            hoverable
             cover={
-              <img alt="Hotel em Ikos" src={ikos} style={{ width: '25rem' }} />
+              <img alt="Hotel em Ikos" src={ikos} style={{ width: '20rem' }} />
             }
           >
             <Typography className="card-title">Ikos Olívia</Typography>

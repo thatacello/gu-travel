@@ -13,9 +13,7 @@ const MenuLateral = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
           possimus tenetur nam sint maxime quaerat tempore, magni, tempora,
           itaque adipisci voluptates alias dolorem amet? Enim sit officiis est
-          aliquid ut. Harum dolor quo minus facilis incidunt? Quasi hic cum eum
-          obcaecati culpa ut iure saepe, est quidem vel tempora nobis quam sit
-          deleniti ratione nulla numquam perspiciatis natus exercitationem nemo!
+          aliquid ut. Harum dolor quo minus facilis incidunt?
         </Typography>
         <Typography className="small">
           Adress
