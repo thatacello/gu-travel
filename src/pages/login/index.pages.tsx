@@ -1,13 +1,14 @@
 import { Typography } from 'antd';
-import { LoginButton, Col, Container, Icon, Row } from './styles';
+import { LoginButton, Col, Container, Icon, Row, ImageContent } from './styles';
 import logo from '../../assets/logo/logo.svg';
 import gmail from '../../assets/icons/gmail-icon.png';
+import bg from '../../assets/images/login-foto.png';
 
 import { Form, Input, Button, Checkbox, Radio } from 'antd';
 import { Link } from 'react-router-dom';
 
 import React, { useState } from 'react';
-import {  } from 'antd';
+import {} from 'antd';
 
 type LayoutType = Parameters<typeof Form>[0]['layout'];
 
@@ -35,7 +36,9 @@ const FormLayout = () => {
           <Input className="input-form" />
         </Form.Item>
         <Form.Item {...null}>
-          <Button className="entrar" type="primary">Entrar</Button>
+          <Button className="entrar" type="primary">
+            Entrar
+          </Button>
         </Form.Item>
       </Form>
     </>
@@ -47,9 +50,12 @@ export default function Login() {
     <Container>
       <Row>
         <Col>
-          <Icon className="logo" src={logo} />
+          <Link to="/" aria-label="Gu->travel - Home">
+            <Icon className="logo" src={logo} />
+          </Link>
           <LoginButton className="login-email">
-          <Icon className="gmail" src={gmail} />Entre com sua conta de e-mail
+            <Icon className="gmail" src={gmail} />
+            Entre com sua conta de e-mail
           </LoginButton>
           <Typography className="subtitle">
             Ou entre com seu cadastro
@@ -62,7 +68,6 @@ export default function Login() {
             </Link>
           </Typography>
         </Col>
-        <Col></Col>
       </Row>
     </Container>
   );

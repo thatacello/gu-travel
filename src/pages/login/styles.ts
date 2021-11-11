@@ -2,23 +2,25 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   width: 100%;
-  height: unset;
   display: flex;
   align-items: center;
   align-content: center;
   flex-direction: column;
   justify-content: center;
-  padding: 7.5rem;
 `;
 export const Icon = styled.img``;
 export const Col = styled.section`
+  width: 45%;
+  height: unset;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
   flex-direction: column;
+  padding: 5rem;
   gap: 2rem;
+
   .login-email {
     background: #fff;
     font-size: 1.5rem;
@@ -65,6 +67,7 @@ export const Col = styled.section`
   }
 `;
 export const Row = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -75,4 +78,8 @@ export const LoginButton = styled.button`
   border-radius: 2rem;
   gap: 1rem;
   padding: 1rem 2rem;
+`;
+export const ImageContent = styled.img`
+  width: 130%;
+  margin: -10rem -10rem -10rem 5rem;
 `;
