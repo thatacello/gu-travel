@@ -23,6 +23,9 @@ export const ContentContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     margin: 4rem 0;
+    div {
+      width: 18rem;
+    }
   }
   .card-title {
     font-size: 2rem;
@@ -43,6 +46,13 @@ export const ContentContainer = styled.div`
     justify-content: center;
     align-items: center;
     align-content: center;
+  }
+  .hotel-card {
+    width: 18rem;
+
+    img {
+      width: 12rem;
+    }
   }
 `;
 export const Header = styled.section`

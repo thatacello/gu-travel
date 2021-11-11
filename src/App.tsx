@@ -8,6 +8,8 @@ import HotelDetalhes from './pages/hotel-detalhes/index.pages';
 import Login from './pages/login/index.pages';
 import Cadastro from './pages/cadastro/index.pages';
 import AluguelCarros from './pages/aluguel-carros';
+import Restaurantes from './pages/restaurantes/index.pages';
+import RestauranteDetalhes from './pages/restaurante-detalhes/index.pages';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/aluguel-carros" element={<AluguelCarros />} />
+          <Route path="/restaurantes" element={<Restaurantes />} />
+          <Route path="/restaurante-detalhes" element={<RestauranteDetalhes />} />
         </Routes>
       </Main>
     </BrowserRouter>

@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: unset;
-  width: 30%;
+  width: 35%;
   background-color: #FFF;
-  border-radius: 
   display: flex;
   flex-direction: column;
-  padding: 4rem;
+  justify-content: center;
+  padding: 2rem;
 
   article {
     font-size: 1.5rem;
@@ -16,12 +16,10 @@ export const Container = styled.div`
   input {
     width: 2rem;
     height: 2rem;
-    margin-right: 1rem;
   }
   label {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
   }
   
 `;
@@ -33,14 +31,14 @@ export const Col = styled.div`
     height: 1.8rem;
     margin-bottom: 0.5rem;
   }
-  span > span {
-    position: relative;
-    display: block;
-    width: 1.5rem;
-    height: 1.5rem;
-    border: 1px solid #85d2d0;
-    background: #fff;
-    margin: 0.25rem;
+  span>span {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #85D2D0;
+  background: #FFF;
+  margin: 0.25rem;
   }
 `;
 export const Row = styled.div`
@@ -55,9 +53,9 @@ export const Row = styled.div`
     text-align: center;
     width: 40%;
     height: 2rem;
-    border: 1px solid #85d2d0;
+    border: 1px solid #85D2D0;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #FFF;
     padding: 1.25rem;
   }
 `;

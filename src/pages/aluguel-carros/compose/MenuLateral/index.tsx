@@ -10,26 +10,23 @@ const MenuLateral = () => {
   return (
     <Container>
       <Col>
-        <Typography className="title">Comodidades</Typography>
-        <Checkbox onChange={onChange}>Estacionamento</Checkbox>
-        <Checkbox onChange={onChange}>Café da manhã</Checkbox>
-        <Checkbox onChange={onChange}>Ar condicionado</Checkbox>
-        <Checkbox onChange={onChange}>Perto da praia</Checkbox>
+        <Typography className="title">Tamanhos</Typography>
+        <Checkbox className="check" onChange={onChange}>Pequeno (até 4 pessoas)</Checkbox>
+        <Checkbox className="check" onChange={onChange}>Médio (até 5 pessoas)</Checkbox>
+        <Checkbox className="check" checked onChange={onChange}>Grande (até 5 pessoas )</Checkbox>
+        <Checkbox className="check" onChange={onChange}>SUV</Checkbox>
+        <Checkbox className="check" onChange={onChange}>Minivan (até 7 pessoas)</Checkbox>
       </Col>
       <Col>
-        <Typography className="title">Tipos de acomodações</Typography>
-        <Checkbox onChange={onChange}>Hostel ou Albergue</Checkbox>
-        <Checkbox onChange={onChange}>Pousada</Checkbox>
-        <Checkbox onChange={onChange}>Hotel</Checkbox>
-        <Checkbox onChange={onChange}>Resort</Checkbox>
+        <Typography className="title">Devoluções</Typography>
+        <Checkbox className="check" onChange={onChange}>Devolução no mesmo local</Checkbox>
+        <Checkbox className="check" checked onChange={onChange}>Devolução em outro local</Checkbox>
       </Col>
       <Col>
-        <Typography className="title">Preço por diária</Typography>
-        <Row>
-          <Input className="price" />
-          <Small>até</Small>
-          <Input className="price" />
-        </Row>
+        <Typography className="title">Preço</Typography>
+        <Checkbox className="check" onChange={onChange}>Barato</Checkbox>
+        <Checkbox className="check" checked onChange={onChange}>Moderado</Checkbox>
+        <Checkbox className="check" onChange={onChange}>Sofisticado</Checkbox>
       </Col>
       <Col>
         <Typography className="title">Pontuação dos travellers</Typography>

@@ -14,7 +14,7 @@ const Header = () => {
       <Link to="/" aria-label="Gu->travel - Passeios">
           Passeios
       </Link>
-      <Link to="/" aria-label="Gu->travel - Restaurantes">
+      <Link to="/restaurantes" aria-label="Gu->travel - Restaurantes">
           Restaurantes
       </Link>
       <Link to="/" aria-label="Gu->travel - Blog">

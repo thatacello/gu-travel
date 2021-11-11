@@ -14,19 +14,17 @@ const Content = () => {
           Para quem busca uma experiência marcante!
         </Typography>
       </Header>
-      <Row className="row" gutter={16}>
-        <Col span={8}>
+      <Row className="row">
+        <Col>
           <Link
             to="/hotel-detalhes"
             aria-label="Gu->travel - Detalhes do Hotel"
           >
-            Blog
-            <Card
+            <Card className="hotel-card"
               cover={
                 <img
                   alt="Hotel em Mandapa"
                   src={mandapa}
-                  style={{ width: '20rem' }}
                 />
               }
             >
@@ -37,17 +35,16 @@ const Content = () => {
             </Card>
           </Link>
         </Col>
-        <Col span={8}>
+        <Col>
           <Link
             to="/hotel-detalhes"
             aria-label="Gu->travel - Detalhes do Hotel"
           >
-            <Card
+            <Card className="hotel-card"
               cover={
                 <img
                   alt="Hotel em Shinta"
                   src={shinta}
-                  style={{ width: '20rem' }}
                 />
               }
             >
@@ -58,17 +55,16 @@ const Content = () => {
             </Card>
           </Link>
         </Col>
-        <Col span={8}>
+        <Col>
           <Link
             to="/hotel-detalhes"
             aria-label="Gu->travel - Detalhes do Hotel"
           >
-            <Card
+            <Card className="hotel-card"
               cover={
                 <img
                   alt="Hotel em Ikos"
                   src={ikos}
-                  style={{ width: '20rem' }}
                 />
               }
             >
