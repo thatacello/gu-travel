@@ -7,8 +7,9 @@ export const Container = styled.div`
   align-content: center;
   width: 100%;
   height: unset;
+  margin: 1rem 0;
 
-  article {
+  .rate {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -23,27 +24,26 @@ export const Col = styled.div`
   align-content: center;
   width: 100%;
 
-   button {
-     border: none;
-     background-color: #E5E5E5;
-     color: #6B3C85;
-     font-size: 1.25rem;
-     font-weight: 700;
-     letter-spacing: 0.05em;
-     padding: 0.75rem 1.6rem;
-     border-radius: 5px;
-   }
 `;
 export const Row = styled.div`
-  display: flex:
+  display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  align-content: center;
   width: 100%;
-   svg {
-     width: 1.8em;
-     height: 1.8em;
-   }
+  height: 4rem;
+  gap: 2rem;
+
+  svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 1.15rem;
+  }
 `;
 export const Card = styled.div`
   display: flex;
@@ -60,4 +60,11 @@ export const Card = styled.div`
 `;
 export const Icon = styled.img`
   height: 2rem;
+`;
+export const Box = styled.div`
+  width: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;

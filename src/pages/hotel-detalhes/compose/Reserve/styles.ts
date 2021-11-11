@@ -12,22 +12,22 @@ export const Container = styled.div`
   }
 `;
 export const Col = styled.div`
-  display: flex:
+  display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: center;
+  justify-content: center;
   width: 100%;
 
-   button {
-     border: none;
-     background-color: #E5E5E5;
-     color: #6B3C85;
-     font-size: 1.25rem;
-     font-weight: 700;
-     letter-spacing: 0.05em;
-     padding: 0.75rem 1.6rem;
-     border-radius: 5px;
-   }
+  button {
+    border: none;
+    background-color: #e5e5e5;
+    color: #6b3c85;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 0.75rem 1.6rem;
+    border-radius: 5px;
+  }
 `;
 export const Card = styled.div`
   display: flex;

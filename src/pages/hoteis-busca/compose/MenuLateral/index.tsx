@@ -1,5 +1,6 @@
 import { Col, Container, Row, Small } from './styles';
-import { Typography, Checkbox, Input } from 'antd';
+import { Typography, Checkbox, Input, Rate } from 'antd';
+import 'antd/dist/antd.css';
 
 function onChange(e: any) {
   console.log(`checked = ${e.target.checked}`);
@@ -32,6 +33,9 @@ const MenuLateral = () => {
       </Col>
       <Col>
         <Typography className="title">Pontuação dos travellers</Typography>
+        <Rate disabled defaultValue={4} />
+        <Rate disabled defaultValue={3} />
+        <Rate disabled defaultValue={2} />
       </Col>
     </Container>
   );

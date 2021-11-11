@@ -28,6 +28,11 @@ export const Container = styled.div`
 export const Col = styled.div`
   display: flex;
   flex-direction: column;
+  svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
 `;
 export const Row = styled.div`
   display: flex;
