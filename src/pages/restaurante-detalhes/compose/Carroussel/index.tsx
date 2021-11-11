@@ -1,8 +1,8 @@
 import 'antd/dist/antd.css';
 import Carousel from 'react-bootstrap/Carousel';
-import restaurante1 from '../../../../assets/images/restaurante1.jpg';
-import restaurante2 from '../../../../assets/images/restaurante2.jpg';
-import restaurante3 from '../../../../assets/images/restaurante3.jpg';
+import restaurante1 from '../../../../assets/images/restaurante1.jpeg';
+import restaurante2 from '../../../../assets/images/restaurante2.jpeg';
+import restaurante3 from '../../../../assets/images/restaurante3.jpeg';
 import { Container } from './styles';
 
 const Carroussel = () => {
