@@ -7,6 +7,7 @@ import HoteisBusca from './pages/hoteis-busca/index.page';
 import HotelDetalhes from './pages/hotel-detalhes/index.pages';
 import Login from './pages/login/index.pages';
 import Cadastro from './pages/cadastro/index.pages';
+import AluguelCarros from './pages/aluguel-carros';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/hotel-detalhes" element={<HotelDetalhes />} />
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
+          <Route path="/aluguel-carros" element={<AluguelCarros />} />
         </Routes>
       </Main>
     </BrowserRouter>
