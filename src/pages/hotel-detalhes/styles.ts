@@ -26,3 +26,15 @@ export const Content = styled.div`
   flex-direction: row;
   gap: 2rem;
 `;
+export const RightContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 2rem;
+`;
+export const LeftContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 2rem;
+`;

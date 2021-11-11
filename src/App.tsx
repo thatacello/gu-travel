@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Hoteis from './pages/hoteis/index.page';
 import HoteisBusca from './pages/hoteis-busca/index.page';
 import { Main } from './styles/theme';
+import HotelDetalhes from './pages/hotel-detalhes/index.pages';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/hoteis" element={<Hoteis />} />
           <Route path="/hoteis-busca" element={<HoteisBusca />} />
+          <Route path="/hotel-detalhes" element={<HotelDetalhes />} />
         </Routes>
         <Footer />
       </Main>
