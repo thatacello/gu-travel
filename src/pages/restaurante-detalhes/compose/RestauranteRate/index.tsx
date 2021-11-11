@@ -3,7 +3,6 @@ import 'antd/dist/antd.css';
 import { Box, Col, Container, Icon, Row } from './styles';
 import pin from '../../../../assets/icons/pin-icon.png';
 import park from '../../../../assets/icons/park-icon.png';
-import coffee from '../../../../assets/icons/coffee-icon.png';
 import wifi from '../../../../assets/icons/wifi-icon.png';
 
 const HotelRate = () => {
@@ -23,7 +22,7 @@ const HotelRate = () => {
             Rua xxxxxx, 450 - Saude - 04294-000
           </Typography>
         </Row>
-        <Typography className="title">O que o hotel oferece:</Typography>
+        <Typography className="title">O que o local oferece:</Typography>
         <Row>
           <Box>
             <Icon src={park} />
@@ -34,24 +33,22 @@ const HotelRate = () => {
         </Row>
         <Row>
           <Box>
-            <Icon src={coffee} />
-          </Box>
-          <Typography className="description">
-            Café da manhã gratuito
-          </Typography>
-        </Row>
-        <Row>
-          <Box>
-            <Icon src={pin} />
-          </Box>
-          <Typography className="description">Serviço de bagagem</Typography>
-        </Row>
-        <Row>
-          <Box>
             <Icon src={wifi} />
           </Box>
           <Typography className="description">Wi-Fi gratuito</Typography>
         </Row>
+        <br />
+        <Typography className="title-second">Pratos principais</Typography>
+        <br />
+        <ul>
+        <li><Typography className="description">Wi-Fi gratuito</Typography></li>
+        <li><Typography className="description">Lorem ipsum dolor sit amet.</Typography></li>
+        <li><Typography className="description">Lorem, ipsum dolor.</Typography></li>
+        <li><Typography className="description">Lorem ipsum dolor sit.</Typography></li>
+        <li><Typography className="description">Lorem ipsum dolor sit amet consectetur.</Typography></li>
+        <li><Typography className="description">Lorem ipsum dolor sit amet, consectetur adipisicing.</Typography></li>
+        <li><Typography className="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</Typography></li>
+        </ul>
       </Col>
     </Container>
   );

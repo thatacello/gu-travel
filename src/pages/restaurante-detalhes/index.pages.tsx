@@ -9,7 +9,6 @@ import {
   IconContainer,
   LeftContent,
   Main,
-  ReserveButton,
   RightContent,
   Row,
 } from './styles';
@@ -19,9 +18,7 @@ import {
   Carroussel,
   Comments,
   Maps,
-  OQueFazer,
   RestauranteRate,
-  Sobre,
 } from './compose';
 
 export default function RestauranteDetalhes() {
@@ -43,12 +40,10 @@ export default function RestauranteDetalhes() {
             <LeftContent>
               <Carroussel />
               <Maps />
-              <OQueFazer />
-              <Sobre />
             </LeftContent>
             <RightContent>
               <RestauranteRate />
-              <Typography className="title">Já visitou esse hotel?</Typography>
+              <Typography className="title">Já visitou esse local?</Typography>
               <Comments />
             </RightContent>
           </Content>

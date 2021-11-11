@@ -1,8 +1,8 @@
 import 'antd/dist/antd.css';
 import Carousel from 'react-bootstrap/Carousel';
-import hotel1 from '../../../../assets/images/hotel1.jpg';
-import hotel2 from '../../../../assets/images/hotel2.jpg';
-import hotel3 from '../../../../assets/images/hotel3.jpg';
+import restaurante1 from '../../../../assets/images/restaurante1.jpg';
+import restaurante2 from '../../../../assets/images/restaurante2.jpg';
+import restaurante3 from '../../../../assets/images/restaurante3.jpg';
 import { Container } from './styles';
 
 const Carroussel = () => {
@@ -10,21 +10,21 @@ const Carroussel = () => {
     <Container>
       <Carousel>
         <Carousel.Item interval={1000}>
-          <img className="d-block w-100" src={hotel1} alt="First slide" />
+          <img className="d-block w-100" src={restaurante1} alt="First slide" />
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
-          <img className="d-block w-100" src={hotel2} alt="Second slide" />
+          <img className="d-block w-100" src={restaurante2} alt="Second slide" />
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={hotel3} alt="Third slide" />
+          <img className="d-block w-100" src={restaurante3} alt="Third slide" />
           <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>

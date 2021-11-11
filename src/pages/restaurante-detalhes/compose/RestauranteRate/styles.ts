@@ -44,6 +44,9 @@ export const Row = styled.div`
   .title {
     font-size: 1.15rem;
   }
+  .title-second {
+    font-size: 2rem;
+  }
 `;
 export const Card = styled.div`
   display: flex;
