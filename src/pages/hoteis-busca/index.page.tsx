@@ -1,5 +1,5 @@
 import { Typography } from 'antd';
-import { InputHeader } from '../../components';
+import { Footer, Header, InputHeader, Menu } from '../../components';
 import { Col, Content, Icon, IconContainer, Row } from './styles';
 import heart from '../../assets/icons/heart.svg';
 import send from '../../assets/icons/send.svg';
@@ -8,6 +8,8 @@ import { Card, MenuLateral } from './compose';
 export default function HoteisBusca() {
   return (
     <>
+      <Header />
+      <Menu />
       <InputHeader />
       <Col>
         <Row>
@@ -22,6 +24,7 @@ export default function HoteisBusca() {
           <Card />
         </Content>
       </Col>
+      <Footer />
     </>
   );
 }

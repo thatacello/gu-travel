@@ -9,7 +9,7 @@ const Header = () => {
       <Link to="/" aria-label="Gu->travel - Home">
         <Logo />
       </Link>
-      <Link to="/" aria-label="Gu->travel - Home">
+      <Link to="/login" aria-label="Gu->travel - Login">
         <button className="login">
           Fazer login
         </button>

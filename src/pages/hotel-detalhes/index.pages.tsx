@@ -1,5 +1,7 @@
 import { Typography } from 'antd';
-import { InputHeader } from '../../components';
+import { Footer, InputHeader } from '../../components';
+import Header from '../../components/Header';
+import Menu from '../../components/Menu';
 import {
   Col,
   Content,
@@ -26,6 +28,8 @@ import {
 export default function HotelDetalhes() {
   return (
     <>
+      <Header />
+      <Menu />
       <InputHeader />
       <Main>
         <Col>
@@ -58,6 +62,7 @@ export default function HotelDetalhes() {
           </Content>
         </Col>
       </Main>
+      <Footer />
     </>
   );
 }
